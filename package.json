@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/moso1122/express-lesson/issues"
   },
-  "homepage": "https://github.com/moso1122/express-lesson#readme"
+  "homepage": "https://github.com/moso1122/express-lesson#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
